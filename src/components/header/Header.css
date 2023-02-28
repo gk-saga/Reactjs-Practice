@@ -1,0 +1,30 @@
+.custom-logo{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline;
+}
+.nav{
+    justify-content: space-between;
+}
+.nav>li>a{
+    color:#fb2708;
+}
+.banner-sec{
+    /* background:gray; */
+    padding-top: 72px;
+}
+.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+@keyframes up-down{
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
